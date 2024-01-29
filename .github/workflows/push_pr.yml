@@ -25,7 +25,7 @@ jobs:
   compile_and_test:
     strategy:
       matrix:
-        flink: [ 1.17-SNAPSHOT ]
+        flink: [ 1.17-SNAPSHOT, 1.18-SNAPSHOT, 1.19-SNAPSHOT ]
         jdk: [ '8, 11' ]
         include:
           - flink: 1.18-SNAPSHOT
